@@ -15,3 +15,16 @@
     /*max-height: 75%;*/
     /*max-width:50%*/
 }
+
+.image {
+    max-height: border-box;
+}
+
+#2021 {
+    visibility: hidden;
+}
+
+.yearButton {
+    border-style: none;
+    background: none;
+}
