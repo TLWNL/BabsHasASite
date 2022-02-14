@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
-	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
   	<link rel="stylesheet" href="css/style.css">
 
@@ -15,10 +15,12 @@
 
     <link rel="stylesheet" href="css/index.css">
 
+    <link rel="stylesheet" href="css/works.css">
+
 	</head>
 	<body>
 	
-	<div class="page">
+<!--	<div class="page container-fluid">-->
         <nav id="colorlib-main-nav" role="navigation">
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
             <div class="js-fullheight colorlib-table">
@@ -28,11 +30,9 @@
                             <ul>
                                 <li class="active"><a class="menuOptions" href="index.html"><span>Home</span></a></li>
                                 <li><a class="menuOptions" href="about.html"><span>About Me</span></a></li>
-                                <!--                <li><a class="menuOptions" href="blog.html"><span>Blog</span></a></li>-->
                                 <li><a class="menuOptions" href="works.html"><span>Works</span></a></li>
                                 <li><a class="menuOptions" href="contact.html"><span>Contact</span></a></li>
 
-                                <!--                <li><a class="menuOptions" href="https://github.com/TLWNL"><span>GitHub</span></a></li>-->
                             </ul>
                         </div>
                     </div>
@@ -40,41 +40,60 @@
             </div>
         </nav>
     
-    <div id="colorlib-page">
-      <header>
-      	<div class="container">
+          <header>
+            <div class="container">
+                <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </div>
+          </header>
 
-	        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-        </div>
-      </header>
+        <section class="hero-wrap js-fullheight">
+            <div class="row pt-5">
+                <div class="container pt-5 mx-auto" id="filterContainer">
+                </div>
+                  <!--              TODO: ADD FILTER!-->
+            </div>
 
-      <section class="hero-wrap js-fullheight">
-          <div class="container">
-              <div class="row">
-                  <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h1 class="gallery-title">BBBootstrap Restaurant</h1>
-                  </div>
-                  <div align="center"> <button class="btn btn-default filter-button" data-filter="all">All</button> <button class="btn btn-default filter-button" data-filter="hdpe">Vegetarian</button> <button class="btn btn-default filter-button" data-filter="sprinkle">Non Vegetarian</button> <button class="btn btn-default filter-button" data-filter="spray">Sides</button> <button class="btn btn-default filter-button" data-filter="irrigation">Meal below 99</button> </div> <br />
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe"><a href=""> <img src="images/Fotos/2014/IMG_1612.JPG" class="img-responsive"></a> </div>
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033829/Restaurant/img-6.jpg" class="img-responsive"></a> </div>
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033828/Restaurant/img-3.jpg" class="img-responsive"></a> </div>
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033828/Restaurant/img-4.jpg" class="img-responsive"></a> </div>
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033828/Restaurant/img-5.jpg" class="img-responsive"></a> </div>
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033829/Restaurant/img-2.jpg" class="img-responsive"></a> </div>
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033829/Restaurant/img-7.jpg" class="img-responsive"></a> </div>
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033828/Restaurant/img-3.jpg" class="img-responsive"></a> </div>
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033828/Restaurant/img-5.jpg" class="img-responsive"></a> </div>
+<!--            <div class="row pt-5 h-75" style="background: #8fd19e">-->
+
+                <div class="container pt-5 mx-auto h-75" id="picturesContainer">
+<!--                                TODO: ADD PICTURES-->
+                    <div class="row">
+                        <div class="col mx-auto">
+                            <img src="images/Fotos/2014/IMG_1612.JPG" class="img-thumbnail"/>
+                        </div>
+                        <div class="col mx-auto">
+                            <img src="images/Fotos/2014/IMG_1612.JPG" class="img-thumbnail"/>
+                        </div>
+                    </div>
+
+
               </div>
-          </div>
-      </section>
-
-    </div>
-  </div>
+<!--          </div>-->
+<!--    </div>-->
+        </section>
 
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+    <script>
+        const fs = require('fs');
+
+
+        function main(){
+            (async (path) => {
+                const dir = await fs.promises.opendir(path);
+                for await (const dirent of dir) {
+                    console.log(dirent.name);
+                }
+            })('./files');
+
+            for (let i = 2014; i < 2026; i++) {
+
+            }
+        }
+
+    </script>
 
 	</body>
 </html>
