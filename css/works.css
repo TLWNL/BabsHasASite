@@ -28,3 +28,17 @@
     border-style: none;
     background: none;
 }
+
+.years {
+    color: black;
+}
+
+.footie {
+    position: absolute;
+    bottom:0;
+    background: none;
+}
+
+#email {
+    color:black;
+}
