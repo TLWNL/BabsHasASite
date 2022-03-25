@@ -1,87 +1,87 @@
 .aboutTitle {
-    color: whitesmoke;
-    margin-top : 50px;
+  color: whitesmoke;
+  margin-top: 50px;
 }
 
 .aboutPicture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 750px;
-    height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  height: 400px;
 }
 
 .container-main-content {
-    display: flex;
-    justify-content: space-around;
-    height:100%;
-    width:100%;
-    padding:10%;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  padding: 10%;
 }
 
 .content-container {
-
 }
 
-.title-header-container{
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-    width:200px;
+.title-header-container {
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  width: 200px;
 }
 
-.title-header{
-    /*background:tomato;*/
-    height:100px;
-    width:200px;
-    margin: auto;
+.title-header {
+  /*background:tomato;*/
+  height: 100px;
+  width: 200px;
+  margin: auto;
 }
 
-.title-text{
-    color:#fff;
+.title-text {
+  color: #fff;
 }
 
-#animatedAbout{
-    /*border: 3px groove black;*/
-    /*border-color: #ffffff;*/
-    margin: 0;
-    /*text-transform: lowercase;*/
-    font-size: 14pt;
-    font-family: "Monospaced", serif;
-    color:whitesmoke;
+#animatedAbout {
+  /*border: 3px groove black;*/
+  /*border-color: #ffffff;*/
+  margin: 0;
+  /*text-transform: lowercase;*/
+  font-size: 14pt;
+  font-family: "Monospaced", serif;
+  color: whitesmoke;
 
-    /*font-weight: 900;*/
-    width: 75%;
-    /*color: #fff;*/
-    /*display: none;*/
+  /*font-weight: 900;*/
+  width: 75%;
+  /*color: #fff;*/
+  /*display: none;*/
 }
 
-#aboutText{
-    border: 2px whitesmoke ridge;
-    color:whitesmoke;
-    font-family: Monospaced, serif;
-    font-size:16pt;
-    text-align: center;
+#aboutText {
+  border: 2px whitesmoke ridge;
+  color: whitesmoke;
+  font-family: Monospaced, serif;
+  font-size: 16pt;
+  text-align: center;
 }
 
 body {
-    background: #202020;
-
+  background: #202020;
 }
 
 .cv {
-    text-align: center;
-    align-items: center;
-    color:whitesmoke;
-    font-family: Monospaced, serif;
-    font-size:14pt;
-    list-style: none;
+  text-align: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: Monospaced, serif;
+  font-size: 14pt;
+  list-style: none;
 }
 
 #cvName {
-    font-size: 20px;
-    text-align: center;
-
+  font-size: 20px;
+  text-align: center;
 }
 
-
+.footie {
+  position: fixed;
+  bottom: 0;
+}

@@ -1,44 +1,44 @@
 #filterContainer {
-    margin-top: 6%;
-    /*background: #0f6674;*/
+  margin-top: 6%;
+  /*background: #0f6674;*/
 }
 
 #picturesContainer {
-    /*background: #1c7430;*/
+  /*background: #1c7430;*/
 }
 
 .pictureFrame {
-    background: #86cfda;
+  background: #86cfda;
 }
 
 .picture {
-    /*max-height: 75%;*/
-    /*max-width:50%*/
+  /*max-height: 75%;*/
+  /*max-width:50%*/
 }
 
 .image {
-    max-height: border-box;
+  max-height: border-box;
 }
 
 #2021 {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .yearButton {
-    border-style: none;
-    background: none;
+  border-style: none;
+  background: none;
 }
 
 .years {
-    color: black;
+  color: black;
 }
 
 .footie {
-    position: absolute;
-    bottom:0;
-    background: none;
+  position: fixed;
+  bottom: 0;
+  background: none;
 }
 
 #email {
-    color:black;
+  color: black;
 }

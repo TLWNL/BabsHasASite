@@ -1,50 +1,55 @@
 .typewriter h1 {
-    font-family: monospace;/* Web-safe typewriter-like font */
-    overflow: hidden;/* Ensures the content is not revealed until the animation */
-    white-space: nowrap;/* Keeps the content on a single line */
-    margin: 0 auto;/* Gives that scrolling effect as the typing happens */
-    letter-spacing: .17em;/* Adjust as needed */
-    animation: typing 3s steps(30, end), blinking-cursor .5s step-end infinite;
-  }
+  font-family: monospace; /* Web-safe typewriter-like font */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.17em; /* Adjust as needed */
+  animation: typing 3s steps(30, end), blinking-cursor 0.5s step-end infinite;
+}
 
-  .typewriter h3 {
-    font-family: monospace;/* Web-safe typewriter-like font */
-    overflow: hidden;/* Ensures the content is not revealed until the animation */
-    white-space: nowrap;/* Keeps the content on a single line */
-    margin: 0 auto;/* Gives that scrolling effect as the typing happens */
-    letter-spacing: .17em;/* Adjust as needed */
-    animation: typing 3s steps(30, end), blinking-cursor .5s step-end infinite;
-    /* animation-delay: 3s; */
-  }
+.typewriter h3 {
+  font-family: monospace; /* Web-safe typewriter-like font */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.17em; /* Adjust as needed */
+  animation: typing 3s steps(30, end), blinking-cursor 0.5s step-end infinite;
+  /* animation-delay: 3s; */
+}
 
-  .desc {
-      color: whitesmoke;
-  }
+.desc {
+  color: whitesmoke;
+}
 
-  .menuOptions {
-      font-size: xx-large;
-  }
+.menuOptions {
+  font-size: xx-large;
+}
 
-  .page {
-      background-color: beige;
-  }
+.page {
+  background-color: beige;
+}
 
-  /* The typing effect */
+/* The typing effect */
 @keyframes typing {
-    from {
-    width: 0
-    }
-    to {
-    width: 100%
-    }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes caret {
-    0%,
-    100% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.footie {
+  position: fixed;
+  bottom: 0;
 }
